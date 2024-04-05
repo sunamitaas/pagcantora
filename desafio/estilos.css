@@ -1,0 +1,123 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  
+
+
+  .logo img {
+    width: 100%;
+  }
+
+  #logo {
+    background-image: url('imagens/cant3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    font-size: 20px; 
+  }
+  
+  .logo-content {
+    padding: 100%; 
+  }
+
+  .logo {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .logo img {
+    width: 100%; 
+    margin-right: 20px; 
+  }
+  
+  .logo h1 {
+    font-size: 50px; 
+    color: #ececec; 
+  }
+
+  #biografia {
+    background-image: url('imagens/cant2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+    font-size: 20px; 
+  }
+  
+  .biografia-content {
+    padding: 50px 20px; 
+  }
+
+  section#musica {
+    background-color: #f2f2f2;
+  }
+  
+  section#biografia {
+    background-color: #eaeaea;
+  }
+  
+  section#agenda {
+    background-color: #f2f2f2;
+  }
+  
+  section#contato {
+    background-color: #eaeaea;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 20px;
+  }
